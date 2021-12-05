@@ -4,7 +4,7 @@ input.onButtonPressed(Button.B, function () {
 let scaling = input.magneticForce(Dimension.Strength)
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
-        music.ringTone(input.magneticForce(Dimension.Strength) - scaling + 131)
+        music.ringTone(input.magneticForce(Dimension.Strength) - scaling + 262)
     } else {
         music.stopAllSounds()
     }
